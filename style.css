@@ -241,3 +241,26 @@ nav ul li a {
 #footer-text-highlight {
     color: rgb(27, 163, 248);
 }
+
+
+/**** socila-icon ****/
+
+.social-icon {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+/*** copyright  ***/
+
+#copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
