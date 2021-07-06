@@ -1,13 +1,13 @@
 /* google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap");
 
 /* Base */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -16,7 +16,7 @@
 .container {
     max-width: 80%;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -29,8 +29,8 @@
 
 .nav-bar ul li {
     list-style-type: none;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 0.625rem;
+    margin-top: 1.25rem;
 }
 
 .nav-bar ul li a {
@@ -45,13 +45,13 @@
     display: flex;
 }
 
-.text-highlight {
+#text-highlight {
     color: #74b9ff;
 }
 
 .header-text {
     width: 70%;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .header-text h1 {
@@ -59,12 +59,12 @@
 }
 
 .header-text p {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     color: #555;
 }
 
-.btn {
-    margin-top: 30px;
+#btn {
+    margin-top: 20px;
     display: inline-block;
     text-decoration: none;
     background-color: #63a4ff;
@@ -90,3 +90,100 @@
 
 
 /***** About me section *****/
+
+.about-me {
+    background-image: url("img/Frame 57.jpg");
+    width: 61.25rem;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+.about-me-img img {
+    width: 60%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.about-me-text {
+    width: 50%;
+    margin-top: 25px;
+    margin-right: 60px;
+    padding: 2%;
+}
+
+.about-me-text p {
+    font-size: 12px;
+    color: rgb(121, 189, 211);
+    margin-top: 10px;
+}
+
+.about-me-text h1 {
+    color: rgb(59, 206, 255);
+    font-weight: 600;
+}
+
+
+/***** my recipie section *****/
+
+.my-recipie h1 {
+    color: #555;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.my-recipie p {
+    color: #555;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/**** Recipie Card  ***/
+
+.recipie-card {
+    margin-top: 140px;
+    display: flex;
+}
+
+.card img {
+    width: 270px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+.card {
+    height: 380px;
+    width: 400px;
+    box-shadow: 20px 20px 20px 10px grey;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.recipie-card p {
+    color: #555;
+}
+
+.recipie-card h1 {
+    color: #555;
+}
+
+
+/**** sociel-count-section****/
+
+.social-count {
+    width: 80%;
+    height: 200px;
+    margin-top: 200px;
+    box-shadow: 20px 20px 20px 10px grey;
+}
+
+.social-count-card {
+   
+}
